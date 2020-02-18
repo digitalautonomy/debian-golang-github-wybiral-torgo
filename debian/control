@@ -20,7 +20,7 @@ Architecture: all
 Depends: ${misc:Depends},
          golang-golang-x-crypto-dev,
          golang-golang-x-net-dev
-Description: A Golang library for Tor.
+Description: Golang library for Tor.
  torgo GoDoc (https://godoc.org/github.com/wybiral/torgo) This is a
  Go library for interacting with Tor over the standard controller
  interface. It simplifies tasks like creating ephemeral hidden
