@@ -1,0 +1,31 @@
+Source: golang-github-wybiral-torgo
+Section: devel
+Priority: optional
+Maintainer: Ola Bini <debian@olabini.se>
+Uploaders: Ola Bini <debian@olabini.se>
+Build-Depends: debhelper (>= 11),
+               dh-golang,
+               golang-any,
+               golang-golang-x-crypto-dev,
+               golang-golang-x-net-dev
+Standards-Version: 4.2.1
+Homepage: https://github.com/wybiral/torgo
+Vcs-Browser: https://gitlab.autonomia.digital/cadprojects/packaging/debian/golang-github-wybiral-torgo
+Vcs-Git: https://gitlab.autonomia.digital/cadprojects/packaging/debian/golang-github-wybiral-torgo.git
+XS-Go-Import-Path: github.com/wybiral/torgo
+Testsuite: autopkgtest-pkg-go
+
+Package: golang-github-wybiral-torgo-dev
+Architecture: all
+Depends: ${misc:Depends},
+         golang-golang-x-crypto-dev,
+         golang-golang-x-net-dev
+Description: A Golang library for Tor.
+ torgo GoDoc (https://godoc.org/github.com/wybiral/torgo) This is a
+ Go library for interacting with Tor over the standard controller
+ interface. It simplifies tasks like creating ephemeral hidden
+ services, working with private keys, and making SOCKS proxied client
+ requests on the Tor network.  Examples• /examples/hello-world
+ (https://github.com/wybiral/torgo/blob/master/examples/hello-world)•
+ godoc examples (https://godoc.org/github.com/wybiral/torgo#pkg-examples)
+
