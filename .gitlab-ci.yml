@@ -7,7 +7,7 @@ build:
   before_script:
     - 'apt-get update && apt-get install -y --no-install-recommends golang-golang-x-crypto-dev golang-golang-x-net-dev'
   script:
-    - gbp buildpackage --git-ignore-branch --git-no-pristine-tar
+    - gbp buildpackage --git-ignore-branch --git-no-pristine-tar --git-no-create-orig
   artifacts:
     paths:
       - '../*.deb'
