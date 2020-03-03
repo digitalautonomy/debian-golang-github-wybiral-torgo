@@ -1,4 +1,4 @@
-golang-github-wybiral-torgo (0.0~git20190413.a19a6c8-1) UNRELEASED; urgency=medium
+golang-github-wybiral-torgo (0.0~git20190413.a19a6c8-1) unstable; urgency=medium
 
   * Initial release (Closes: 999999)
 
