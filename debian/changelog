@@ -1,3 +1,12 @@
+golang-github-wybiral-torgo (0.0~git20210308.5fd9910-1) UNRELEASED; urgency=medium
+
+  * New upstream release (5fd9910)
+  * Try to get it to not sign
+  * Change uploader
+  * Try running updating of packages on every build
+
+ -- Ola Bini <debian@olabini.se>  Mon, 08 Mar 2021 17:37:35 +0100
+
 golang-github-wybiral-torgo (0.0~git20190413.a19a6c8-1) unstable; urgency=medium
 
   * Initial release (Closes: 999999)
