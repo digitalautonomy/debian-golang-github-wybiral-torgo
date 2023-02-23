@@ -1,3 +1,9 @@
+golang-github-wybiral-torgo (0.0~git20230223.5fd9910-1) UNRELEASED; urgency=medium
+
+  * New upstream release (5fd9910)
+
+ -- CAD Debian Packager <debian-packager@autonomia.digital>  Thu, 23 Feb 2023 15:02:41 +0000
+
 golang-github-wybiral-torgo (0.0~git20210308.5fd9910-1) unstable; urgency=medium
 
   * New upstream release (5fd9910)
